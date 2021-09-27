@@ -9,6 +9,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g bats
-      - run: apt install httpd
+      - run: sudo apt install httpd
       - run: bats -v
 
