@@ -9,6 +9,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g bats
-      - run: sudo apt install httpd
+      - run: sudo apt install apache2
       - run: bats -v
 
