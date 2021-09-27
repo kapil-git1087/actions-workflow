@@ -11,8 +11,3 @@ jobs:
       - run: npm install -g bats
       - run: sudo apt install apache2
       - run: bats -v
-
-  install webserver:
-    runs-on: fedora:latest 
-    steps:
-      - run: dnf install httpd
